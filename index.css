@@ -8,38 +8,41 @@ html{
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     background: white;
-    height: 100vh;
+    /* height: 100vh; */
     display: table;
 }
-
+/* 
 .bgvid{
-    width: 100%;
-    height:100%;
+    width: 100vw;
+    height:100vh;
     overflow: hidden;
     display:flex;
     justify-content: center;
     align-items: center;
-}
+    
+} */
 
 .bgvid video{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index:-1
 }
 
-.landing{
-    position: absolute;
+.landingname{
+    position: relative;
     top:50vh;
     left:50vw;
     transform: translate(-50%,-50%);
-    width:70%;
+    width:65vw;
 }
+
 
 path{
     stroke: black;
@@ -71,4 +74,11 @@ path{
         fill: rgba(255,255,255,1);
         stroke-dashoffset: 0;
     }
+}
+
+
+.myprojects{
+    height: 100vh;
+    width:100vw;
+    background-color: white;
 }
