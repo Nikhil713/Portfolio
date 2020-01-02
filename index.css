@@ -14,6 +14,11 @@ body{
     /* height: 100vh; */
     display: table;
 }
+
+.landing{
+    height: 100vh;
+    width: 100vw;
+}
 /* 
 .bgvid{
     width: 100vw;
@@ -32,7 +37,7 @@ body{
     object-fit: cover;
     width: 100vw;
     height: 100vh;
-    z-index:-1
+    z-index:-1;
 }
 
 .landingname{
@@ -81,4 +86,5 @@ path{
     height: 100vh;
     width:100vw;
     background-color: white;
+    /* border: red 1px solid; */
 }
