@@ -126,3 +126,25 @@ path{
     float: right;
     box-shadow: -10px 0px 10px 1px #aaaaaa;
 }
+.portfolio>div{
+    margin-top: 5vh;
+}
+.portfolio>div>a{
+    margin: 10vh ;
+
+    font-size: 2vw;;
+}
+
+
+.iconsBlock{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .iconsBlock > div{
+    padding: 1.6vw;
+    cursor: pointer;
+
+  }
