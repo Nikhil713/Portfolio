@@ -16,8 +16,8 @@ body{
 }
 
 .landing{
-    height: 100vh;
-    width: 100vw;
+    height: 10vh;
+    width: 10vw;
 }
 /*
 .bgvid{
@@ -45,7 +45,7 @@ body{
     top:50vh;
     left:50vw;
     transform: translate(-50%,-50%);
-    width:55vw;
+    width:75vw;
 }
 
 
@@ -82,47 +82,9 @@ path{
 }
 
 
-.bio{
+.myprojects{
     height: 100vh;
     width:100vw;
-    display: inline-block;
     background-color: white;
-    border: red 1px solid;
-    clear: both;
-}
-
-.profile{
-    /* border: blue 5px solid; */
-    /* background-color: blue; */
-    width:40vw;
-    height: 70vh;
-    float: left;
-    /* z-index: 10; */
-    /* padding: 2vw;; */
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
-
-.profile>div{
-    margin-top:5vh;
-    padding:1vw;
-}
-
-.profile>div>p{
-    font-size: 1.5vw;
-}
-
-.profilepic>img{
-    border-radius: 20vw;
-    max-width: 15vw;
-    box-shadow: 5px 10px 5px grey;
-}
-
-.portfolio{
-    /* border: black 2px solid; */
-    width: 60vw;
-    height: 100vh;
-    float: right;
-    box-shadow: -10px 0px 10px 1px #aaaaaa;
+    /* border: red 1px solid; */
 }
