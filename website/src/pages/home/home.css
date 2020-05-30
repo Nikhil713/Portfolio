@@ -1,4 +1,22 @@
 .home{
     height: auto;
-    width: auto;
+    width: 100vw;
+}
+
+.bg-home{
+    position: absolute;
+    height: auto;
+    width: 100vw;
+    z-index: -1;
+}
+
+.bg-home-left{
+    height: 90vh;
+    width: 40%;
+    background-color: rgb(128, 167, 255);
+}
+
+.card-img > img {
+    max-width: 10vw;
+    border-radius: 100px;
 }
