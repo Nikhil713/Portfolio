@@ -1,6 +1,10 @@
 .home{
     height: auto;
-    width: 100vw;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
 }
 
 .bg-home{
@@ -8,6 +12,7 @@
     height: auto;
     width: 100vw;
     z-index: -1;
+    border: solid;
 }
 
 .bg-home-left{
@@ -16,7 +21,24 @@
     background-color: rgb(128, 167, 255);
 }
 
+.home-info{
+    border: 1px red solid;
+    height: auto;
+    width: auto;
+}
+
+.home-card{
+    height: auto;
+    width: auto;
+    box-shadow: -11.31px 11.31px 17px 0px rgba(138,131,124,0.23);
+    background-color: rgb(170, 197, 255);
+}
+
 .card-img > img {
     max-width: 10vw;
     border-radius: 100px;
+}
+
+.box-color{
+    
 }
