@@ -11,16 +11,24 @@ export default class Home extends React.Component {
                     <div className="bg-home-right"></div>
                 </div>
                 <div className="home">
-                <div className="home-info">
-                    <div className="home-card">
-                        <div className="card-img">
-                            <img src={profile} alt="Profile-picture"></img>
+                    <div className="home-info">
+                        <div className="home-card">
+                            <div className="card-img">
+                                <img src={profile} alt="Profile-picture"></img>
+                            </div>
+                            <div className="card-name">
+                                <h1>Nikhil <br /> Babu</h1>
+                            </div>
+                            <div className="card-subtitle">
+                                <h3>PROJECT MANAGER</h3>
+                            </div>
+                        </div>
+                        <div className="home -info">
+                            <div className="info-head">
+                                <h1>Hello!</h1>
+                            </div>
                         </div>
                     </div>
-                    <div className="home -info">
-
-                    </div>
-                </div>
                 </div>
             </div>
         )

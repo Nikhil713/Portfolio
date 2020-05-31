@@ -1,10 +1,14 @@
 .home{
     height: auto;
+    /* min-height: 90vh; */
     /* width: 100vw; */
+
+    padding: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid;
+    
+    /* border: solid; */
 }
 
 .bg-home{
@@ -16,20 +20,30 @@
 }
 
 .bg-home-left{
-    height: 90vh;
+    min-height: 100vh;
+    height: auto;
     width: 40%;
     background-color: rgb(128, 167, 255);
 }
 
 .home-info{
-    border: 1px red solid;
-    height: auto;
-    width: auto;
+    /* height: ; */
+    /* width: auto; */
+
+    display: flex;
 }
 
 .home-card{
-    height: auto;
-    width: auto;
+    height: fit-content;
+    width: fit-content;
+
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     box-shadow: -11.31px 11.31px 17px 0px rgba(138,131,124,0.23);
     background-color: rgb(170, 197, 255);
 }
@@ -39,6 +53,21 @@
     border-radius: 100px;
 }
 
-.box-color{
-    
+.card-name{
+    text-align: center;
+    font: normal normal bold 27px/1.4em poppins-semibold,poppins,sans-serif;
+}
+
+.card-name > h1{
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.card-subtitle > h3{
+    font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+
+    text-align: center;
+
+    letter-spacing: 0.25em;
+    line-height: 1rem;
 }
