@@ -1,9 +1,19 @@
+
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+
 .home{
     height: auto;
     /* min-height: 90vh; */
     /* width: 100vw; */
 
-    padding: 10rem;
+    /* padding: 10rem; */
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,12 +26,12 @@
     height: auto;
     width: 100vw;
     z-index: -1;
-    border: solid;
+    /* border: solid; */
 }
 
 .bg-home-left{
-    min-height: 100vh;
-    height: auto;
+    /* min-height: 100vh; */
+    height: 50rem;
     width: 40%;
     background-color: rgb(128, 167, 255);
 }
@@ -30,6 +40,9 @@
     /* height: ; */
     /* width: auto; */
 
+    margin-top: 5rem;
+    margin-right: 8rem;
+
     display: flex;
 }
 
@@ -37,7 +50,7 @@
     height: fit-content;
     width: fit-content;
 
-    padding: 4rem;
+    padding: 3rem 5rem;
 
     display: flex;
     flex-direction: column;
@@ -54,8 +67,11 @@
 }
 
 .card-name{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+
     text-align: center;
-    font: normal normal bold 27px/1.4em poppins-semibold,poppins,sans-serif;
 }
 
 .card-name > h1{
@@ -70,4 +86,23 @@
 
     letter-spacing: 0.25em;
     line-height: 1rem;
+}
+
+.home-side-info{
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-side-info > div{
+    padding: 1rem;
+}
+
+.info-details{
+    width: 200px;
+
+    line-height: 1.4rem;
 }
