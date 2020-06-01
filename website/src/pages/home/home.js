@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import profile from '../../assets/Nikhil.jpg'
+import fb from '../../assets/fb.png'
 
 export default class Home extends React.Component {
     render() {
@@ -12,6 +13,7 @@ export default class Home extends React.Component {
                 </div>
                 <div className="home">
                     <div className="home-info">
+                        <div className="home-card-container">
                         <div className="home-card">
                             <div className="card-img">
                                 <img src={profile} alt="Profile-picture"></img>
@@ -19,8 +21,13 @@ export default class Home extends React.Component {
                             <div className="card-name">
                                 <h1>Nikhil <br /> Babu</h1>
                             </div>
+                            <div className="card-name-underline"></div>
                             <div className="card-subtitle">
                                 <h3>PROJECT MANAGER</h3>
+                            </div>
+                        </div>
+                        <div className="card-contact">
+                                <img src={fb} alt="fb-logo"></img>
                             </div>
                         </div>
                         <div className="home-side-info">

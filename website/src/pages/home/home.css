@@ -40,6 +40,9 @@
     display: flex;
 }
 
+.home-card-container{
+    box-shadow: -11.31px 11.31px 17px 0px rgba(138, 131, 124, 0.23);
+}
 .home-card {
     height: fit-content;
     width: fit-content;
@@ -48,7 +51,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: -11.31px 11.31px 17px 0px rgba(138, 131, 124, 0.23);
     background-color: rgb(170, 197, 255);
 }
 
@@ -66,8 +68,16 @@
 .card-name>h1 {
     text-align: center;
     line-height: 1.2em;
+    letter-spacing: 2px;
+    font-family: 'Monteserat';
 }
 
+.card-name-underline {
+    content: '';
+    height: 5px;
+    width: 50px;
+    border-top: 2px solid rgba(0, 80, 255, 1);
+}
 .card-subtitle>h3 {
     font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
     text-align: center;
@@ -75,6 +85,16 @@
     line-height: 1rem;
 }
 
+.card-contact {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    /* border: solid; */
+}
+
+.card-contact >img {
+    max-width: 30px;
+}
 .home-side-info {
     padding: 0 2rem;
     display: flex;
@@ -131,7 +151,7 @@
 }
 
 .info-b1:hover{
-    border: 2px solid blue;
+    border: 2px solid rgba(0, 80, 255, 1);
     background-color: white;
     color: black;
     transition: 0.4s;
@@ -144,7 +164,7 @@
 }
 
 .info-b2:hover{
-    border: 2px white solid;
+    border: 1px white solid;
     background-color: rgba(0, 80, 255, 1);
     color: white;
     transition: 0.4s;
