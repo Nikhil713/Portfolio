@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 
@@ -15,13 +15,12 @@
     justify-content: center;
     align-items: center;
     /* border: solid; */
-    font-family: 'Montserrat';
 }
 
 .bg-home {
     position: absolute;
     height: auto;
-    width: 100vw;
+    width: 100%;
     z-index: -1;
     /* border: solid; */
 }
@@ -54,12 +53,11 @@
 }
 
 .card-img>img {
-    max-width: 10vw;
+    max-width: 190px;
     border-radius: 100px;
 }
 
 .card-name {
-    font-family: 'Montserrat';
     font-size: 20px;
     font-weight: 500;
     text-align: center;
@@ -86,7 +84,7 @@
 }
 
 .home-side-info>div {
-    padding: 0rem;
+    
 }
 
 .info-head {
@@ -105,25 +103,38 @@
     font-weight: 500;
 }
 
+.info-buttons {
+    padding: 0;
+}
+
 .info-buttons >button{
     
     height: auto;
     width: auto;
 
     margin: 10px;
-    padding: 0.5rem 2.75rem;
+    padding: 0.5rem 2rem;
     
-    border-radius: 30px;
+    border-radius: 100px;
 
-    font-family: 'Montserrat';
-    font-size: 13px;
-    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    cursor: pointer;
 }
 
 .info-b1 {
-    border: none;
-    background-color: blue;
+    border: 2px white solid;
+    background-color: rgba(0, 80, 255, 1);
     color: white;
+}
+
+.info-b1:hover{
+    border: 2px solid blue;
+    background-color: white;
+    color: black;
+    transition: 0.4s;
 }
 
 .info-b2 {
@@ -132,7 +143,15 @@
     color: black;
 }
 
+.info-b2:hover{
+    border: 2px white solid;
+    background-color: rgba(0, 80, 255, 1);
+    color: white;
+    transition: 0.4s;
+}
+
 .info-details {
-    width: 200px;
+    width: 350px;
     line-height: 1.4rem;
+    font-weight: 100;
 }
