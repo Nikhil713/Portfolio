@@ -1,6 +1,8 @@
 import React from 'react'
 import './home.css'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import profile from '../../assets/Nikhil.jpg'
 import fb from '../../assets/fb.png'
@@ -8,8 +10,12 @@ import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 import gmail from '../../assets/gmail.png'
 
-        // CODE FOR HOMEPAGE
-        
+import resume from '../../assets/Nikhil_Resume.pdf'
+
+// CODE FOR HOMEPAGE
+
+AOS.init();
+
 export default class Home extends React.Component {
     render() {
         return (
@@ -22,39 +28,57 @@ export default class Home extends React.Component {
                 </div>
 
                 <div className="home">
+
                     <div className="home-info">
 
                         <div className="home-card-container">
-                        
-                        <div className="home-card">
 
-                            <div className="card-img">
-                                <img src={profile} alt="Profile-picture"></img>
+                            <div className="home-card">
+
+                                <div className="card-img">
+                                    <img src={profile} alt="Profile-picture"></img>
+                                </div>
+
+                                <div className="card-name">
+                                    <h1>Nikhil <br /> Babu</h1>
+                                </div>
+
+                                <div className="card-name-underline"></div>
+
+                                <div className="card-subtitle mobile-card-subtitle">
+                                    <h3>PROJECT MANAGER</h3>
+                                </div>
+
+                                <div className="info-buttons mobile-info-buttons">
+                                    <button className="info-b1">RESUME</button>
+                                    <button className="info-b2">PROJECTS</button>
+                                </div>
+
+
                             </div>
 
-                            <div className="card-name">
-                                <h1>Nikhil <br /> Babu</h1>
+                            <div className="card-contact">
+                                <a href="https://www.facebook.com/profile.php?id=100008338440903" target="blank" data-aos="fade-right" data-aos-duration="1000">
+                                    <img src={fb} alt="fb-logo" className="fb"></img>
+                                </a>
+                                <a href="https://github.com/Nikhil713" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                                    <img src={github} alt="github-logo" className="github"></img>
+                                </a>
+                                <a href="https://www.linkedin.com/in/nikhil713/" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
+                                    <img src={linkedin} alt="linkedin-logo" className="linkedin"></img>
+                                </a>
+                                <a href="mailto:nikhilbabu213@gmail.com" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">
+                                    <img src={gmail} alt="gmail-logo" className="gmail"></img>
+                                </a>
                             </div>
+                            <div className="card-blankspace">
 
-                            <div className="card-name-underline"></div>
-                            
-                            <div className="card-subtitle">
-                                <h3>PROJECT MANAGER</h3>
-                            </div>
-
-                        </div>
-
-                        <div className="card-contact">
-                                <a href="https://www.facebook.com/profile.php?id=100008338440903" target="blank"><img src={fb} alt="fb-logo" style={{width:"15px"}}></img></a>
-                                <a href="https://github.com/Nikhil713" target="blank"><img src={github} alt="github-logo" style={{width:"25px"}}></img></a>
-                                <a href="https://www.linkedin.com/in/nikhil713/" target="blank"><img src={linkedin} alt="linkedin-logo" style={{width:"35px"}}></img></a>
-                                <a href="mailto:nikhilbabu213@gmail.com" target="blank"><img src={gmail} alt="gmail-logo" style={{width:"25px"}}></img></a>
                             </div>
                         </div>
 
                         <div className="home-side-info">
-                            
-                            <div className="info-head">
+
+                            <div className="info-head" data-aos="fade-down" data-aos-duration="1000">
                                 <h1>Hello!</h1>
                             </div>
 
@@ -62,8 +86,8 @@ export default class Home extends React.Component {
                                 <h2>Here's who I am & what I do</h2>
                             </div>
 
-                            <div className="info-buttons">
-                                <button className="info-b1">RESUME</button>
+                            <div className="info-buttons pc-info-buttons">
+                                <button className="info-b1"><a href={resume} download>RESUME</a></button>
                                 <button className="info-b2">PROJECTS</button>
                             </div>
 
@@ -73,6 +97,7 @@ export default class Home extends React.Component {
                             </div>
 
                         </div>
+
                     </div>
                 </div>
             </div>

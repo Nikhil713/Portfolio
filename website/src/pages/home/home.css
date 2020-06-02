@@ -13,6 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    overflow-x: hidden;
 }
 
 .bg-home {
@@ -21,14 +23,21 @@
     height: auto;
     width: 100%;
 
+    display: flex;
+
     z-index: -1;
 }
 
 .bg-home-left {
     height: 50rem;
-    width: 40%;
-
+    width: 760px;
+    max-width: 40%;
     background-color: rgb(128, 167, 255);
+}
+
+.bg-home-right {
+    height: 50rem;
+    width: 60%;
 }
 
 .home-info {
@@ -43,10 +52,8 @@
 }
 
 .home-card {
-    height: fit-content;
-    width: fit-content;
 
-    padding: 3rem 5rem;
+    padding: 3rem 5rem 1rem 5rem;
 
     display: flex;
     flex-direction: column;
@@ -73,6 +80,7 @@
     line-height: 1.2em;
     letter-spacing: 2px;
     font-family: 'Monteserat';
+    font-variant-caps: petite-caps;    
 }
 
 .card-name-underline {
@@ -84,8 +92,11 @@
     border-top: 2px solid rgba(0, 80, 255, 1);
 }
 
+.card-subtitle {
+    margin-top: 10px;
+}
 .card-subtitle>h3 {
-    font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
+    font: 17px sans-serif;
     text-align: center;
     letter-spacing: 0.25em;
     line-height: 1rem;
@@ -105,6 +116,22 @@
 .card-contact img {
     margin: 15px 20px;
     cursor: pointer;
+}
+
+.fb{
+    width: 15px;
+}
+
+.github{
+    width: 25px;
+}
+
+.linkedin{
+    width: 35px;
+}
+
+.gmail{
+    width: 25px;
 }
 
 .home-side-info {
@@ -153,20 +180,27 @@
     cursor: pointer;
 }
 
-.info-b1 {
+.info-b1{
     border: 2px white solid;
     background-color: rgba(0, 80, 255, 1);
+    color: white;
+}
+
+.info-b1 > a {
+    text-decoration: none;
     color: white;
 }
 
 .info-b1:hover{
     border: 2px solid rgba(0, 80, 255, 1);
     background-color: white;
-    color: black;
-
+    
     transition: 0.4s;
 }
 
+.info-b1:hover > a{
+    color: black;
+}
 .info-b2 {
     border: 1px solid;
     background-color: white;
@@ -181,9 +215,149 @@
     transition: 0.4s;
 }
 
+.mobile-info-buttons {
+    display: none !important;
+}
+
 .info-details {
     width: 350px;
-    
+
     line-height: 1.4rem;
     font-weight: 100;
+}
+
+
+@media only screen and (max-width:900px){
+    .bg-home{
+        /* position: relative; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg-home-left{
+        background-color: white;
+        height: 300px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .bg-home-right{
+        height: 700px;
+        width: 100%;
+        background-color: rgb(128, 167, 255);
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        margin: 0;
+    }
+
+    .home-card-container{
+        margin: 50px 10px 20px 10px;
+    }
+    
+    .home-card{
+        padding: 30px 30px 20px 30px;
+    }
+
+    .card-img >img{
+        max-width: 140px;
+    }
+
+    .card-name {
+        font-size: 17px;
+    }
+
+    .card-name > h1{
+        letter-spacing: 1.5px;
+    }
+
+    .card-subtitle >h3 {
+        font-size: 17px;
+    }
+
+    .mobile-card-subtitle {
+        display: none;
+    }
+
+    .mobile-info-buttons{
+        display: flex !important;
+        margin: 0;
+    }
+
+    .info-buttons{
+        margin: 0;
+        padding: 10px 0px;
+    }
+
+    .info-buttons > button{
+        /* font-size: 10px; */
+        padding: 0.5rem 1rem;
+    }
+
+    .info-b1 {
+        border: none;
+    }
+ 
+    .info-b2 {
+        border: 1px solid;
+        background-color: rgb(170, 197, 255);;
+    }
+
+    .card-contact{
+        width: inherit;
+        padding: 0 20px;
+    }
+
+    .card-contact img {
+        padding: 0;
+        margin: 15px;
+    }
+    .fb{
+        width: 12px;
+    }
+    
+    .github{
+        width: 22px;
+    }
+    
+    .linkedin{
+        width: 32px;
+    }
+    
+    .gmail{
+        width: 22px;
+    }
+
+    .card-blankspace {
+        height: 15px;
+    }
+
+    .home-side-info{
+        margin: 0 20px;
+        padding: 0;
+        /* border: solid; */
+    }
+
+    .home-side-info >div{
+        margin: 0px 10px;
+    }
+
+    .pc-info-buttons {
+        display: none;
+    }
+
+    .info-details {
+        width:auto;
+    }
+
 }
