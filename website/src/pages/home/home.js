@@ -2,7 +2,9 @@ import React from 'react'
 import './home.css'
 import profile from '../../assets/Nikhil.jpg'
 import fb from '../../assets/fb.png'
-
+import github from '../../assets/github.png'
+import linkedin from '../../assets/linkedin.png'
+import gmail from '../../assets/gmail.png'
 export default class Home extends React.Component {
     render() {
         return (
@@ -27,7 +29,10 @@ export default class Home extends React.Component {
                             </div>
                         </div>
                         <div className="card-contact">
-                                <img src={fb} alt="fb-logo"></img>
+                                <a href="https://www.facebook.com/profile.php?id=100008338440903" target="blank"><img src={fb} alt="fb-logo" style={{width:"15px"}}></img></a>
+                                <a href="https://github.com/Nikhil713" target="blank"><img src={github} alt="github-logo" style={{width:"25px"}}></img></a>
+                                <a href="https://www.linkedin.com/in/nikhil713/" target="blank"><img src={linkedin} alt="linkedin-logo" style={{width:"35px"}}></img></a>
+                                <a href="mailto:nikhilbabu213@gmail.com" target="blank"><img src={gmail} alt="gmail-logo" style={{width:"25px"}}></img></a>
                             </div>
                         </div>
                         <div className="home-side-info">

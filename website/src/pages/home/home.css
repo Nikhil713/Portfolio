@@ -88,12 +88,17 @@
 .card-contact {
     height: auto;
     width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     /* border: solid; */
 }
 
-.card-contact >img {
-    max-width: 30px;
+.card-contact img {
+    margin: 15px 20px;
+    cursor: pointer;
 }
 .home-side-info {
     padding: 0 2rem;
