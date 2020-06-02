@@ -58,16 +58,16 @@ export default class Home extends React.Component {
                             </div>
 
                             <div className="card-contact">
-                                <a href="https://www.facebook.com/profile.php?id=100008338440903" target="blank" data-aos="fade-right" data-aos-duration="1000">
+                                <a href="https://www.facebook.com/profile.php?id=100008338440903" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1800">
                                     <img src={fb} alt="fb-logo" className="fb"></img>
                                 </a>
-                                <a href="https://github.com/Nikhil713" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                                <a href="https://github.com/Nikhil713" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2300">
                                     <img src={github} alt="github-logo" className="github"></img>
                                 </a>
-                                <a href="https://www.linkedin.com/in/nikhil713/" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
+                                <a href="https://www.linkedin.com/in/nikhil713/" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2700">
                                     <img src={linkedin} alt="linkedin-logo" className="linkedin"></img>
                                 </a>
-                                <a href="mailto:nikhilbabu213@gmail.com" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">
+                                <a href="mailto:nikhilbabu213@gmail.com" target="blank" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="3000">
                                     <img src={gmail} alt="gmail-logo" className="gmail"></img>
                                 </a>
                             </div>
@@ -82,18 +82,18 @@ export default class Home extends React.Component {
                                 <h1>Hello!</h1>
                             </div>
 
-                            <div className="info-subheader">
+                            <div className="info-subheader" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                                 <h2>Here's who I am & what I do</h2>
                             </div>
 
-                            <div className="info-buttons pc-info-buttons">
-                                <button className="info-b1"><a href={resume} download>RESUME</a></button>
-                                <button className="info-b2">PROJECTS</button>
+                            <div className="info-buttons pc-info-buttons" >
+                                <button className="info-b1" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600"><a href={resume} download>RESUME</a></button>
+                                <button className="info-b2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">PROJECTS</button>
                             </div>
 
                             <div className="info-details">
-                                <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
-                                I’m a great place for you to tell a story and let your users know a little more about you.
+                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1500">I’m a great place for you to tell a story and let your users know a little more about you.</p>
                             </div>
 
                         </div>
