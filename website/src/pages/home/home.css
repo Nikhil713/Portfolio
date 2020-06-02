@@ -7,55 +7,58 @@
 
 .home {
     height: auto;
-    /* min-height: 90vh; */
-    /* width: 100vw; */
-    /* padding: 10rem; */
+
     margin: 0;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid; */
 }
 
 .bg-home {
     position: absolute;
+
     height: auto;
     width: 100%;
+
     z-index: -1;
-    /* border: solid; */
 }
 
 .bg-home-left {
-    /* min-height: 100vh; */
     height: 50rem;
     width: 40%;
+
     background-color: rgb(128, 167, 255);
 }
 
 .home-info {
-    /* height: ; */
-    /* width: auto; */
     margin-top: 5rem;
     margin-right: 8rem;
+
     display: flex;
 }
 
 .home-card-container{
     box-shadow: -11.31px 11.31px 17px 0px rgba(138, 131, 124, 0.23);
 }
+
 .home-card {
     height: fit-content;
     width: fit-content;
+
     padding: 3rem 5rem;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     background-color: rgb(170, 197, 255);
 }
 
 .card-img>img {
     max-width: 190px;
+
     border-radius: 100px;
 }
 
@@ -74,10 +77,13 @@
 
 .card-name-underline {
     content: '';
+
     height: 5px;
     width: 50px;
+
     border-top: 2px solid rgba(0, 80, 255, 1);
 }
+
 .card-subtitle>h3 {
     font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
     text-align: center;
@@ -92,35 +98,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     background-color: white;
-    /* border: solid; */
 }
 
 .card-contact img {
     margin: 15px 20px;
     cursor: pointer;
 }
+
 .home-side-info {
     padding: 0 2rem;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-}
-
-.home-side-info>div {
-    
 }
 
 .info-head {
     padding: 0;
     margin: 0;
+
     font-size: 2rem;
     text-align: start;
 }
 
 .info-head>h1 {
     margin: 0;
+
     text-align: start;
 }
 
@@ -133,7 +138,6 @@
 }
 
 .info-buttons >button{
-    
     height: auto;
     width: auto;
 
@@ -159,6 +163,7 @@
     border: 2px solid rgba(0, 80, 255, 1);
     background-color: white;
     color: black;
+
     transition: 0.4s;
 }
 
@@ -172,11 +177,13 @@
     border: 1px white solid;
     background-color: rgba(0, 80, 255, 1);
     color: white;
+
     transition: 0.4s;
 }
 
 .info-details {
     width: 350px;
+    
     line-height: 1.4rem;
     font-weight: 100;
 }
