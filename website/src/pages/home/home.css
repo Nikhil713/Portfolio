@@ -114,7 +114,14 @@
 }
 
 .card-contact img {
-    margin: 15px 20px;
+    margin: 15px 20px; 
+}
+
+.card-contact > a {
+    cursor: default !important;
+}
+
+.card-contact > a > img {
     cursor: pointer;
 }
 
@@ -358,6 +365,7 @@
 
     .info-details {
         width:auto;
+        max-width: 300px;
     }
 
 }
