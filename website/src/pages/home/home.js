@@ -39,13 +39,13 @@ export default class Home extends React.Component {
                                     <img src={profile} alt="Profile-picture"></img>
                                 </div>
 
-                                <div className="card-name">
+                                <div className="card-name" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1500">
                                     <h1>Nikhil <br /> Babu</h1>
                                 </div>
 
                                 <div className="card-name-underline"></div>
 
-                                <div className="card-subtitle mobile-card-subtitle">
+                                <div className="card-subtitle mobile-card-subtitle" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1800">
                                     <h3>PROJECT MANAGER</h3>
                                 </div>
 
@@ -92,8 +92,8 @@ export default class Home extends React.Component {
                             </div>
 
                             <div className="info-details">
-                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
-                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1500">I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1100">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1300">I’m a great place for you to tell a story and let your users know a little more about you.</p>
                             </div>
 
                         </div>

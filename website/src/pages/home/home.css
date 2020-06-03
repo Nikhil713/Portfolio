@@ -125,6 +125,11 @@
     cursor: pointer;
 }
 
+.card-contact >a >img:hover{
+    opacity:0.6;
+    transition: 0.4s;
+}
+
 .fb{
     width: 15px;
 }
@@ -204,7 +209,7 @@
     border: 2px solid rgba(0, 80, 255, 1);
     background-color: white;
     
-    transition: 0.4s;
+    transition: 0.4s !important;
 }
 
 .info-b1:hover > a{
@@ -221,7 +226,7 @@
     background-color: rgba(0, 80, 255, 1);
     color: white;
 
-    transition: 0.4s;
+    transition: 0.4s !important;
 }
 
 .mobile-info-buttons {
