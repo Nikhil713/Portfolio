@@ -1,4 +1,45 @@
 .navbar-container{
-    height: 120px;
     width: 100%;
+
+    border: solid;
+}
+
+nav{
+    display: flex;
+    /* flex-grow: 1 1; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-left{
+    /* height: 130px; */
+    width: 50%;
+
+    /* padding: 4rem; */
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    float: left;
+    background-color: pink;
+    
+}
+
+.blue-square {
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+}
+
+.nav-right{
+    width: 50%;
+    /* height: 130px; */
+
+    padding: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
 }
