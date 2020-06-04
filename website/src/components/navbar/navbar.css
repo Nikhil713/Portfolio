@@ -91,89 +91,6 @@ nav{
     display: none;
 }
 
-@media only screen and (max-width:900px){
-
-    nav{
-        padding-top: 10px;
-    }
-    
-    .nav-left{
-        width: auto;
-    
-        padding: 10px;
-    
-        float: left;
-        
-    }
-    
-    .nav-left-content {
-        margin-left: 20px;
-    
-        display: flex;
-        align-items: center;
-    }
-    
-    .blue-square {
-        position: absolute;
-        height: 18px;
-        width: 18px;
-    
-        margin: 0;
-        margin-bottom: 30px;
-    
-        background-color: blue;
-    }
-    
-    .nav-name {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;   
-    }
-    
-    .nav-name >h1 {
-        font-size: 25px;
-        margin:5px 5px 5px 25px;
-        font-family: 'Monteserat';
-        font-variant-caps: petite-caps;
-    }
-    
-    .nav-name >h2 {
-        padding-left: 0px;
-        margin-right: 35px;
-        margin-top: 0px ;
-        font-size: 15px;
-        font-weight: 300;
-    }
-    
-    .not-mobile {
-        display: none;
-    }
-    .nav-right{
-        width: auto;
-    
-        padding: 10px;
-    
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        float: right;
-    }
-    
-    .nav-links {
-        display: none;
-    }
-    
-    .menu-item {
-        margin: 0 20px;
-        cursor: pointer;
-    }
-
-    .not-pc {
-        visibility: visible !important;
-    }
-}
-
 .not-pc{
     visibility: hidden;
 }
@@ -292,8 +209,8 @@ nav{
   .menu-wrap .menu > div {
     background: rgb(128, 167, 255);
     /* border-radius: 50%; */
-    width: 200vw;
-    height: 200vw;
+    width: 220vw;
+    height: 220vw;
     display: flex;
     flex: none;
     align-items: center;
@@ -330,3 +247,85 @@ nav{
   }
   
   
+@media only screen and (max-width:900px){
+
+    nav{
+        padding-top: 10px;
+    }
+    
+    .nav-left{
+        width: auto;
+    
+        padding: 10px;
+    
+        float: left;
+        
+    }
+    
+    .nav-left-content {
+        margin-left: 20px;
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .blue-square {
+        position: absolute;
+        height: 18px;
+        width: 18px;
+    
+        margin: 0;
+        margin-bottom: 30px;
+    
+        background-color: blue;
+    }
+    
+    .nav-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    
+    .nav-name >h1 {
+        font-size: 25px;
+        margin:5px 5px 5px 25px;
+        font-family: 'Monteserat';
+        font-variant-caps: petite-caps;
+    }
+    
+    .nav-name >h2 {
+        padding-left: 0px;
+        margin-right: 35px;
+        margin-top: 0px ;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    .not-mobile {
+        display: none;
+    }
+    .nav-right{
+        width: auto;
+    
+        padding: 10px;
+    
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        float: right;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    .menu-item {
+        margin: 0 20px;
+        cursor: pointer;
+    }
+
+    .not-pc {
+        visibility: visible !important;
+    }
+}

@@ -1,5 +1,4 @@
 import React from 'react'
-// import ScriptTag from 'react-script-tag';
 import './navbar.css'
 
 export default class Navbar extends React.Component {
