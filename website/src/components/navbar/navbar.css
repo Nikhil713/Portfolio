@@ -246,7 +246,6 @@ nav{
   }
   
   .menu-wrap .menu > div > div > ul > li > a {
-    text-decoration: none !important;
     color: inherit;
     text-decoration: none;
     transition: color 0.4s ease;
