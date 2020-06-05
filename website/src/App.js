@@ -4,8 +4,10 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import Navbar from './components/navbar/navbar'
+import Footer from './components/footer/footer'
 import Home from './pages/home/home'
 import Resume from './pages/resume/resume'
+
 
 export default class App extends React.Component {
   render() {
@@ -17,6 +19,7 @@ export default class App extends React.Component {
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/" component={Home} />
           </Switch>
+          <Footer />
       </div>
     )
   }
