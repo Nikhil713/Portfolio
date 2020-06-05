@@ -1,5 +1,8 @@
 import React from 'react'
 import './navbar.css'
+import { Link, Route, BrowserRouter } from 'react-router-dom';
+
+import Resume from '../../pages/resume/resume'
 
 export default class Navbar extends React.Component {
     render() {
@@ -23,11 +26,41 @@ export default class Navbar extends React.Component {
                                 <div>
                                     <div>
                                         <ul>
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">Resume</a></li>
-                                            <li><a href="#">Project</a></li>
-                                            <li><a href="#">Certifications</a></li>
-                                            <li><a href="#">Contact</a></li>
+                                            <li>
+                                                <a>
+                                                    <Link to="/home" style={{textDecoration:"none",color:"black"}}>
+                                                        Home
+                                                    </Link>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
+                                                        Resume
+                                                    </Link>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
+                                                        Project
+                                                    </Link>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
+                                                        Certifications
+                                                    </Link>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
+                                                        Contact
+                                                    </Link>
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -35,11 +68,25 @@ export default class Navbar extends React.Component {
 
                         </div>
                         <ul className="nav-links">
-                            <li className="menu-item">HOME</li>
-                            <li className="menu-item">RESUME</li>
-                            <li className="menu-item">PROJECTS</li>
-                            <li className="menu-item">CERTIFICATIONS</li>
-                            <li className="menu-item">CONTACT</li>
+                            <li className="menu-item">
+                                <Link to="/home">
+                                    HOME
+                                </Link>
+                            </li>
+                            <li className="menu-item">
+                                <Link to="/resume">
+                                    RESUME
+                                </Link>
+                            </li>
+                            <li className="menu-item"><Link to="/home">
+                                PROJECTS
+                                </Link></li>
+                            <li className="menu-item"><Link to="/home">
+                                CERTIFICATIONS
+                                </Link></li>
+                            <li className="menu-item"><Link to="/home">
+                                CONTACT
+                                </Link></li>
                         </ul>
                     </div>
 

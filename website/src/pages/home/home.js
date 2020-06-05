@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 import './home.css'
 
 import AOS from 'aos';
@@ -16,7 +17,7 @@ import resume from '../../assets/Nikhil_Resume.pdf'
 
 AOS.init();
 
-export default class Home extends React.Component {
+class Home extends React.Component {
     render() {
         return (
 
@@ -104,3 +105,5 @@ export default class Home extends React.Component {
         )
     }
 }
+
+export default withRouter(Home)
