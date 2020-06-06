@@ -2,7 +2,6 @@ import React from 'react'
 import './navbar.css'
 import { Link, Route, BrowserRouter } from 'react-router-dom';
 
-import Resume from '../../pages/resume/resume'
 
 export default class Navbar extends React.Component {
     render() {
@@ -35,28 +34,21 @@ export default class Navbar extends React.Component {
                                             </li>
                                             <li>
                                                 <a>
-                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
-                                                        Resume
-                                                    </Link>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
+                                                    <Link to="/projects" style={{textDecoration:"none",color:"black"}}>
                                                         Project
                                                     </Link>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a>
-                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
+                                                    <Link to="/certifications" style={{textDecoration:"none",color:"black"}}>
                                                         Certifications
                                                     </Link>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a>
-                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
+                                                    <Link to="/contact" style={{textDecoration:"none",color:"black"}}>
                                                         Contact
                                                     </Link>
                                                 </a>
@@ -73,18 +65,13 @@ export default class Navbar extends React.Component {
                                     HOME
                                 </Link>
                             </li>
-                            <li className="menu-item">
-                                <Link to="/resume">
-                                    RESUME
-                                </Link>
-                            </li>
-                            <li className="menu-item"><Link to="/home">
+                            <li className="menu-item"><Link to="/projects">
                                 PROJECTS
                                 </Link></li>
-                            <li className="menu-item"><Link to="/home">
+                            <li className="menu-item"><Link to="/certifications">
                                 CERTIFICATIONS
                                 </Link></li>
-                            <li className="menu-item"><Link to="/home">
+                            <li className="menu-item"><Link to="/contact">
                                 CONTACT
                                 </Link></li>
                         </ul>

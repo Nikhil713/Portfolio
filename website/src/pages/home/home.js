@@ -1,5 +1,5 @@
 import React from 'react'
-import { withRouter } from 'react-router-dom'
+import { Link, Route, BrowserRouter } from 'react-router-dom';
 import './home.css'
 
 import AOS from 'aos';
@@ -17,7 +17,7 @@ import resume from '../../assets/Nikhil_Resume.pdf'
 
 AOS.init();
 
-class Home extends React.Component {
+export default class Home extends React.Component {
     render() {
         return (
 
@@ -89,7 +89,9 @@ class Home extends React.Component {
 
                             <div className="info-buttons pc-info-buttons" >
                                 <button className="info-b1" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600"><a href={resume} download>RESUME</a></button>
-                                <button className="info-b2" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">PROJECTS</button>
+                                {/* <Link to="/projects" style={{ textDecoration: "none", color: "black" }}> */}
+                                    <button className="info-b2" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">PROJECTS</button>
+                                {/* </Link> */}
                             </div>
 
                             <div className="info-details">
@@ -105,5 +107,3 @@ class Home extends React.Component {
         )
     }
 }
-
-export default withRouter(Home)
