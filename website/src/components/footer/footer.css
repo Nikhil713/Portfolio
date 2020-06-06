@@ -1,81 +1,72 @@
 @font-face {
     font-family: 'Montserrat';
-    /* font-style: normal; */
-    /* font-weight: 100; */
+    font-style: normal;
+    font-weight: 100;
     src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 
 .footer-container {
-    /* background-color: blue; */
     width: 100%;
 }
 
-footer{
+footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* justify-content: flex-start; */
 }
 
-.footer-left{
+.footer-left {
     width: auto;
-
     padding: 1.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-
     float: left;
 }
 
-.footer-left > div {
+.footer-left>div {
     margin-top: 10px;
 }
+
 .footer-left p {
-    /* font-family: 'Montserrat'; */
-    /* font-weight: 100; */
-    font-size: 15px;
     margin: 0px 40px;
+    font-size: 15px;
 }
 
 .footer-right {
     width: auto;
-
     padding-right: 50px;
-
     display: flex;
     justify-content: flex-end;
-    /* align-items: center; */
-
     float: right;
 }
 
-.footer-right > div {
+.footer-right>div {
     margin: 0 20px;
 }
-.footer-right > div > h1{
+
+.footer-right>div>h1 {
     margin: 5px;
     font-size: 15px;
     font-weight: 700;
 }
 
-.call{
+.call {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.write{
+.write {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.follow{
+.follow {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,132 +79,132 @@ footer{
     align-items: center;
 }
 
-.follow-icons > a{
+.follow-icons>a {
     margin: 5px;
 }
 
-.follow-icons .fb{
+.follow-icons .fb {
     width: 10px;
 }
 
-.follow-icons .github{
+.follow-icons .github {
     width: 15px;
 }
 
-.follow-icons .linkedin{
+.follow-icons .linkedin {
     width: 25px;
 }
 
-.follow-icons .gmail{
+.follow-icons .gmail {
     width: 15px;
 }
 
 @media only screen and (max-width:900px) {
-    
-    footer{
+    footer {
+        width: auto;
+
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
-        width: auto;
     }
-    
-    .footer-left{
+
+    .footer-left {
         width: 100%;
-    
+
         padding: 0;
-        
+
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
-    .footer-left > div {
+
+    .footer-left>div {
         margin: 20px 7px;
     }
 
     .footer-left p {
-        /* font-family: 'Montserrat'; */
-        /* font-weight: 100; */
-        font-size: 15px;
         margin: 0px 10px;
+
+        font-size: 15px;
     }
-    
+
     .footer-right {
         width: auto;
-    
+
         padding-right: 0px;
-    
+
         display: flex;
         flex-wrap: wrap;
-        /* align-items: center; */
-    
+
         float: right;
     }
-    
+
     .footer-right > div {
         margin: 10px 20px;
     }
-
-    .footer-right > div > h1{
-        text-align: start;
+    .footer-right > div > h1 {
         margin: 0px;
+
         font-size: 15px;
         font-weight: 700;
-    }
-    
-    .footer-right > div > a {
-        font-size: 15px;
-        margin: 10px 0;
+
+        text-align: start;
     }
 
-    .call{
+    .footer-right > div > a {
+        margin: 10px 0;
+
+        font-size: 15px;
+    }
+
+    .call {
+
         display: flex;
         flex: 25%;
         flex-direction: column;
         align-items: flex-start;
     }
-    
-    .write{
+
+    .write {
         display: flex;
         flex: 25%;
         flex-direction: column;
         align-items: flex-start;
     }
-    
-    .follow{
+
+    .follow {
         display: flex;
         flex: 100%;
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
     .follow-icons {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 5px;
     }
-    
-    .follow-icons > a{
+
+    .follow-icons > a {
         margin: 5px 8px;
     }
-    
-    .follow-icons .fb{
+
+    .follow-icons .fb {
         width: 13px;
     }
-    
-    .follow-icons .github{
+
+    .follow-icons .github {
         width: 18px;
     }
-    
-    .follow-icons .linkedin{
+
+    .follow-icons .linkedin {
         width: 28px;
     }
     
-    .follow-icons .gmail{
+    .follow-icons .gmail {
         width: 18px;
     }
-    
 }
