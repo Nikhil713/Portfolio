@@ -21,7 +21,7 @@ export default class Footer extends React.Component{
                     <div className="footer-right">
                         <div className="call">
                             <h1>Call</h1>
-                            <a href="tel:+918113805051" style={{textDecoration:"none", color:"black"}}>+91 8113805051</a>
+                            <a href="tel:+918113805051" style={{textDecoration:"none", color:"black"}}>+918113805051</a>
                         </div>
                         <div className="write">
                             <h1>Write</h1>

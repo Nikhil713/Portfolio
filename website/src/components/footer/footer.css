@@ -8,7 +8,6 @@
 .footer-container {
     /* background-color: blue; */
     width: 100%;
-    height:10vh;
 }
 
 footer{
@@ -107,4 +106,114 @@ footer{
 
 .follow-icons .gmail{
     width: 15px;
+}
+
+@media only screen and (max-width:900px) {
+    
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+    }
+    
+    .footer-left{
+        width: 100%;
+    
+        padding: 0;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-left > div {
+        margin: 20px 7px;
+    }
+
+    .footer-left p {
+        /* font-family: 'Montserrat'; */
+        /* font-weight: 100; */
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+    
+    .footer-right {
+        width: auto;
+    
+        padding-right: 0px;
+    
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+    
+        float: right;
+    }
+    
+    .footer-right > div {
+        margin: 10px 20px;
+    }
+
+    .footer-right > div > h1{
+        text-align: start;
+        margin: 0px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .footer-right > div > a {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .call{
+        display: flex;
+        flex: 25%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .write{
+        display: flex;
+        flex: 25%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .follow{
+        display: flex;
+        flex: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .follow-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+    .follow-icons > a{
+        margin: 5px 8px;
+    }
+    
+    .follow-icons .fb{
+        width: 13px;
+    }
+    
+    .follow-icons .github{
+        width: 18px;
+    }
+    
+    .follow-icons .linkedin{
+        width: 28px;
+    }
+    
+    .follow-icons .gmail{
+        width: 18px;
+    }
+    
 }

@@ -246,6 +246,11 @@
 
 
 @media only screen and (max-width:900px){
+
+    .home-container {
+        height: 62rem;
+    }
+
     .bg-home{
         /* position: relative; */
         display: flex;
@@ -260,7 +265,7 @@
     }
 
     .bg-home-right{
-        height: 700px;
+        max-height: 670px;
         width: 100%;
         background-color: rgb(128, 167, 255);
     }
