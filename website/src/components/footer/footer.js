@@ -13,9 +13,10 @@ export default class Footer extends React.Component{
             <div className="footer-container">
                 <footer>
                     <div className="footer-left">
-                    
+                        <div>
                         <p>© 2020 by Nikhil Babu</p>
                         <p>Created with React JS</p>
+                        </div>
                     </div>
                     <div className="footer-right">
                         <div className="call">
