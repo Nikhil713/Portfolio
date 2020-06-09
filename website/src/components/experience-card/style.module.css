@@ -1,7 +1,45 @@
 
 .experience-card {
-    height: 200px;
-    width: 500px;
-    background-color: white;
+    height: auto;
+    width: auto;
+    
     margin: 50px 0;
+    padding: 4rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: white;
+    box-shadow: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
+}
+
+.experience-card > div {
+    margin: 20px;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px; */
+}
+
+.card-left h1{
+    margin: 0;
+}
+
+.card-left h2{
+    margin: 0;
+}
+
+.card-left h3{
+    margin: 0;
+}
+
+.card-right{
+    max-width: 400px;
+
+    padding-left: 50px;
+
+    display: flex;
+    flex-direction: column;
 }

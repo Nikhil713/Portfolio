@@ -7,7 +7,7 @@ export default class Resume extends React.Component {
         super(props)
         this.state = {
             exp: [
-                { duration: "Now", position: "Web head", company: "Excel", location: "Kerala" }
+                { duration: "Now", position: "Web head", company: "Excel", location: "Kerala",desc1: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",desc2: "I’m a great place for you to tell a story and let your users know a little more about you." }
             ]
         }
     }
