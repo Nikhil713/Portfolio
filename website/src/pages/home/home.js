@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link, Route, BrowserRouter } from 'react-router-dom';
 import './home.css'
 
 import AOS from 'aos';
@@ -37,7 +36,7 @@ export default class Home extends React.Component {
                             <div className="home-card">
 
                                 <div className="card-img">
-                                    <img src={profile} alt="Profile-picture"></img>
+                                    <img src={profile} alt=""></img>
                                 </div>
 
                                 <div className="card-name" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="650">

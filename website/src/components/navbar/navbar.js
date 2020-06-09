@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import { Link, Route, BrowserRouter } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 
 export default class Navbar extends React.Component {
@@ -13,7 +13,7 @@ export default class Navbar extends React.Component {
                             <div className="blue-square"></div>
                             <div className="nav-name">
                                 <h1>Nikhil Babu</h1>
-                                <h2><a className="not-mobile">/</a> PROJECT MANAGER</h2>
+                                <h2><a href="/#" className="not-mobile" style={{cursor:"auto"}}>/</a> PROJECT MANAGER</h2>
                             </div>
                         </div>
                     </div>
@@ -26,28 +26,35 @@ export default class Navbar extends React.Component {
                                     <div>
                                         <ul>
                                             <li>
-                                                <a>
+                                                <a href="/#" class="check">
                                                     <Link to="/home" style={{textDecoration:"none",color:"black"}}>
                                                         Home
                                                     </Link>
                                                 </a>
                                             </li>
                                             <li>
+                                                <a href="/#" class="check">
+                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
+                                                        Resume
+                                                    </Link>
+                                                </a>
+                                            </li>
+                                            {/* <li>
                                                 <a>
                                                     <Link to="/projects" style={{textDecoration:"none",color:"black"}}>
                                                         Project
                                                     </Link>
                                                 </a>
-                                            </li>
+                                            </li> */}
                                             <li>
-                                                <a>
+                                                <a href="/#" class="check"> 
                                                     <Link to="/certifications" style={{textDecoration:"none",color:"black"}}>
                                                         Certifications
                                                     </Link>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a>
+                                                <a href="/#" class="check">
                                                     <Link to="/contact" style={{textDecoration:"none",color:"black"}}>
                                                         Contact
                                                     </Link>
@@ -65,9 +72,12 @@ export default class Navbar extends React.Component {
                                     HOME
                                 </Link>
                             </li>
-                            <li className="menu-item"><Link to="/projects">
-                                PROJECTS
+                            <li className="menu-item"><Link to="/resume">
+                                RESUME
                                 </Link></li>
+                            {/* <li className="menu-item"><Link to="/projects">
+                                PROJECTS
+                                </Link></li> */}
                             <li className="menu-item"><Link to="/certifications">
                                 CERTIFICATIONS
                                 </Link></li>
