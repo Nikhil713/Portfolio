@@ -1,7 +1,7 @@
 
 .resume-container {
     width: 100%;
-    height: 500px;
+    /* height: fit-content; */
     background-color: rgb(128, 167, 255);
 }
 
@@ -17,7 +17,7 @@
     width: 15px;
 
     margin: 10px 10px 0 10px;
-    
+
     background-color: blue;
 }
 
@@ -28,4 +28,65 @@
 .header-title > h1 {
     font-size: 40px;
     font-weight: 600;
+}
+
+.resume-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    /* width: 500px; */
+    width: 100%;
+}
+
+.resume-button{
+    /* height: fit-content; */
+    /* width: fit-content; */
+
+    /* margin: 10px; */
+    padding: 0.75rem 1.75rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(0, 80, 255, 1);
+    color: white;
+}
+
+.experience-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+.experience-card {
+    height: 200px;
+    width: 500px;
+    background-color: white;
+    margin: 50px 0;
 }
