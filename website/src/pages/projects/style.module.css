@@ -1,0 +1,136 @@
+.project-container {
+    width: 100%;
+    /* height: fit-content; */
+    background-color: rgb(128, 167, 255);
+}
+
+.project-header {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-square {
+    height: 15px;
+    width: 15px;
+    margin: 10px 10px 0 10px;
+    background-color: blue;
+}
+
+.header-title {
+    font-variant-caps: petite-caps;
+}
+
+.header-title>h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.project-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    /* width: 500px; */
+    width: 100%;
+}
+
+.project-button {
+    /* height: fit-content; */
+    /* width: fit-content; */
+    /* margin: 10px; */
+    padding: 0.75rem 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid rgb(128, 167, 255);
+    border-radius: 100px;
+    background-color: rgba(0, 80, 255, 1);
+    color: white;
+}
+
+.project-button:hover {
+    border: 2px solid blue;
+    background: transparent;
+    color: black;
+    transition: 0.4s;
+}
+
+.experience-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+@media only screen and (max-width:900px) {
+    .project-header {
+        padding-top: 40px;
+        margin-right: 30px;
+    }
+
+    .blue-square {
+        height: 10px;
+        width: 10px;
+        margin: 6px 10px 0 10px;
+        background-color: blue;
+    }
+
+    .header-title {
+        font-variant-caps: petite-caps;
+    }
+
+    .header-title>h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .project-body {
+        margin: 0 30px;
+    }
+
+    .experience {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .experience-header {
+        margin-top: 30px;
+    }
+    
+    .experience-header > h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .project-button {
+        padding: 0.5rem 1rem;
+
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+}

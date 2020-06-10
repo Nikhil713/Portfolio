@@ -48,8 +48,8 @@ export default class Navbar extends React.Component {
                                             </li> */}
                                             <li>
                                                 <a href="/#" class="check"> 
-                                                    <Link to="/certifications" style={{textDecoration:"none",color:"black"}}>
-                                                        Certifications
+                                                    <Link to="/projects" style={{textDecoration:"none",color:"black"}}>
+                                                        Projects
                                                     </Link>
                                                 </a>
                                             </li>
@@ -78,8 +78,8 @@ export default class Navbar extends React.Component {
                             {/* <li className="menu-item"><Link to="/projects">
                                 PROJECTS
                                 </Link></li> */}
-                            <li className="menu-item"><Link to="/certifications">
-                                CERTIFICATIONS
+                            <li className="menu-item"><Link to="/projects">
+                                PROJECTS
                                 </Link></li>
                             <li className="menu-item"><Link to="/contact">
                                 CONTACT
