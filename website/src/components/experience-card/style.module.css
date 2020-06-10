@@ -20,18 +20,26 @@
 .card-left {
     display: flex;
     flex-direction: column;
-    /* margin: 20px; */
 }
 
 .card-left h1{
     margin: 0;
+
+    font-size: 20px;
+    color: blue;
 }
 
 .card-left h2{
-    margin: 0;
+    margin: 5px 0;
+
+    font-size: 19px;
+    font-weight: 600;
+    font-variant-caps: petite-caps;
 }
 
 .card-left h3{
+    font-size: 15px;
+    font-weight: 100;
     margin: 0;
 }
 

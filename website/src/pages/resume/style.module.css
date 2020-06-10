@@ -71,10 +71,17 @@
 
     cursor: pointer;
 
-    border: none;
+    border: 2px solid rgb(128, 167, 255);
     border-radius: 100px;
     background-color: rgba(0, 80, 255, 1);
     color: white;
+}
+
+.resume-button:hover {
+    border: 2px solid blue;
+    background: transparent;
+    color: black;
+    transition: 0.4s;
 }
 
 .experience-body {
