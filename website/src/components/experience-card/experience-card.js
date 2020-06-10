@@ -1,10 +1,14 @@
 import React from 'react'
 import styles from './style.module.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 export default class Experience extends React.Component {
     render() {
         return (
-            <div className={styles["experience-card"]}>
+            <div className={styles["experience-card"]} data-aos="fade-down" data-aos-duration="1000">
                 <div className={styles["card-left"]}>
                     <h1>{this.props.exp.duration}</h1>
                     <h2>{this.props.exp.position}</h2>
