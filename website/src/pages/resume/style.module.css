@@ -115,47 +115,22 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: auto;
     }
 
     .experience-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         margin-top: 30px;
-        /* width: 500px; */
-        width: 100%;
     }
     
     .experience-header > h1{
         font-size: 25px;
+        font-weight: 600;
     }
 
     .resume-button {
         padding: 0.5rem 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: sans-serif;
+
         font-size: 12px;
-        font-weight: 400;
-        cursor: pointer;
-        border: 2px solid rgb(128, 167, 255);
-        border-radius: 100px;
-        background-color: rgba(0, 80, 255, 1);
-        color: white;
+        font-weight: 600;
     }
-    .resume-button:hover {
-        border: 2px solid blue;
-        background: transparent;
-        color: black;
-        transition: 0.4s;
-    }
-    .experience-body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* padding: 10px; */
-    }
+
 }

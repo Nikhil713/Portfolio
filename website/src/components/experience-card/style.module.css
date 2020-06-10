@@ -1,19 +1,15 @@
-
 .experience-card {
     height: auto;
     width: auto;
-    
     margin: 50px 0;
     padding: 4rem 2rem;
-
     display: flex;
     justify-content: space-between;
-
     background-color: white;
-    box-shadow: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
+    box-shadow: -11.31px 11.31px 25px 0px rgba(138, 131, 124, 0.23);
 }
 
-.experience-card > div {
+.experience-card>div {
     margin: 20px;
 }
 
@@ -22,89 +18,52 @@
     flex-direction: column;
 }
 
-.card-left h1{
+.card-left h1 {
     margin: 0;
-
     font-size: 20px;
     color: blue;
 }
 
-.card-left h2{
+.card-left h2 {
     margin: 5px 0;
-
     font-size: 19px;
     font-weight: 600;
     font-variant-caps: petite-caps;
 }
 
-.card-left h3{
+.card-left h3 {
     font-size: 15px;
     font-weight: 100;
     margin: 0;
 }
 
-.card-right{
+.card-right {
     max-width: 400px;
-
     padding-left: 50px;
-
     display: flex;
     flex-direction: column;
 }
 
-@media only screen and (max-width:900px){
-    
-.experience-card {
-    height: auto;
-    width: auto;
-    
-    margin: 30px 0;
-    padding: 1rem 0.5rem;
+@media only screen and (max-width:900px) {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    .experience-card {
+        margin: 30px 0;
+        padding: 1rem 0.5rem;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-    background-color: white;
-    box-shadow: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
-}
+    .experience-card>div {
+        margin: 10px;
+    }
 
-.experience-card > div {
-    margin: 10px;
-}
+    .card-left h1 {
+        font-size: 20px;
+    }
 
-.card-left {
-    display: flex;
-    flex-direction: column;
-}
-
-.card-left h1{
-    margin: 0;
-
-    font-size: 20px;
-    color: blue;
-}
-
-.card-left h2{
-    margin: 5px 0;
-
-    font-size: 19px;
-    font-weight: 600;
-    font-variant-caps: petite-caps;
-}
-
-.card-left h3{
-    font-size: 15px;
-    font-weight: 100;
-    margin: 0;
-}
-
-.card-right{
-    max-width: 400px;
-
-    padding-left: 0px;
-
-    display: flex;
-    flex-direction: column;
-}
+    .card-right {
+        padding-left: 0px;
+    }
 }
