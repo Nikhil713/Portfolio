@@ -6,13 +6,19 @@ export default class Resume extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            exp: [
+            expItem: [
+                { duration: "2019 - Present", position: "Web Head", company: "Excel MEC", location: "Kerala",desc1: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",desc2: "I’m a great place for you to tell a story and let your users know a little more about you." },
                 { duration: "2019 - Present", position: "Web Head", company: "Excel MEC", location: "Kerala",desc1: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",desc2: "I’m a great place for you to tell a story and let your users know a little more about you." }
             ]
         }
     }
     render() {
 
+        var grid =[]
+        for(var i=0;i<this.state.expItem.length;i++){
+            var gridItem = <Experience exp={this.state.expItem[i]} />
+            grid.push(gridItem)
+        }
         return (
             <div className={styles["resume-container"]}>
                 <div className={styles["resume-header"]}>
@@ -29,7 +35,7 @@ export default class Resume extends React.Component {
                             <a href="/#" className={styles["resume-button"]}>DOWNLOAD CV</a>
                         </div>
                         <div className={styles["experience-body"]}>
-                            <Experience exp={this.state.exp[0]} />
+                            {grid}
                             
                         </div>
                     </div>
