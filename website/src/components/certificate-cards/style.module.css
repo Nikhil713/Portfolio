@@ -2,10 +2,13 @@
 .experience-card {
     height: auto;
     width: auto;
+
     margin: 50px 0;
     /* padding: 4rem 2rem; */
+
     display: flex;
     justify-content: space-between;
+
     background-color: white;
     box-shadow: -11.31px 11.31px 25px 0px rgba(138, 131, 124, 0.23);
 }
@@ -21,6 +24,7 @@
 
 .card-left > img {
     max-width: 12rem;
+
     padding: 2rem;
 }
 
@@ -53,12 +57,15 @@
 
 .link {
     width: fit-content;
-    border:solid transparent;
-    cursor: pointer;
+
+    margin-top: 20px !important;
     padding: 10px 15px;
+
+    border:solid transparent;
     border-radius: 30px;
     background: blue;
-    margin-top: 20px !important;
+    
+    cursor: pointer; 
 }
 
 .link > a{
@@ -81,7 +88,7 @@
 
     .experience-card {
         margin: 30px 0;
-        padding: 1rem 0.5rem;
+        /* padding: 1rem 0.5rem; */
         
         display: flex;
         flex-direction: column;
@@ -92,11 +99,33 @@
         margin: 10px;
     }
 
-    .card-left h1 {
-        font-size: 20px;
+    .card-left{
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .card-left > img {
+        max-width: 12rem;
+        padding: 1rem;
     }
 
-    .card-right {
-        padding-left: 0px;
+    img {
+        max-width: 13rem;
     }
+    
+    .card-right {
+        max-width: 380px;
+        
+        padding:10px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
