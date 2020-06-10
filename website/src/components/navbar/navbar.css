@@ -4,8 +4,10 @@ a{
 
 .navbar-container{
     width: 100%;
-    /* height: 100vh; */
-    /* background-color: aqua; */
+    height: 110px;
+    background-color: white;
+    position: fixed;
+    top: 0;
 }
 
 nav{

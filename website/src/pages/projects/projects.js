@@ -2,14 +2,15 @@ import React from 'react'
 import styles from './style.module.css'
 
 import ProjectCard from '../../components/project-card/projectcard'
-// import image from '../../assets/coursera.png'
+
+import Scrumpti from '../../assets/scrumpti.jpg'
 
 export default class Project extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
             certificateItem: [
-                { name: "Scrumpti", role: "front end", }
+                { name: "Scrumpti", role: "front end", desc:" ", skills:"", image: Scrumpti }
             ]
         }
     }
