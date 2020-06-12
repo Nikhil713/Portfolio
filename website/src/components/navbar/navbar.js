@@ -54,10 +54,10 @@ export default class Navbar extends React.Component {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="/#" class="check">
-                                                    <Link to="/contact" style={{textDecoration:"none",color:"black"}}>
+                                                <a href="https://form.jotform.com/201631983485461" target="blank" class="check">
+                                                    {/* <Link to="/contact" style={{textDecoration:"none",color:"black"}}> */}
                                                         Contact
-                                                    </Link>
+                                                    {/* </Link> */}
                                                 </a>
                                             </li>
                                         </ul>
@@ -81,9 +81,9 @@ export default class Navbar extends React.Component {
                             <li className="menu-item"><Link to="/projects">
                                 PROJECTS
                                 </Link></li>
-                            <li className="menu-item"><Link to="/contact">
-                                CONTACT
-                                </Link></li>
+                            <li className="menu-item">
+                                <a href="https://form.jotform.com/201631983485461" target="blank">CONTACT ME</a>
+                                </li>
                         </ul>
                     </div>
 
