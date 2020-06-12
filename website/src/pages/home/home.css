@@ -183,7 +183,7 @@
     padding: 0;
 }
 
-.info-buttons >button{
+.info-buttons button{
     height: auto;
     width: auto;
 
@@ -213,6 +213,7 @@
 .info-b1:hover{
     border: 2px solid rgba(0, 80, 255, 1);
     background-color: white;
+    color: black;
     
     transition: 0.4s !important;
 }
@@ -225,7 +226,10 @@
     background-color: white;
     color: black;
 }
-
+.info-b2 > a {
+    text-decoration: none;
+    color: black;
+}
 .info-b2:hover{
     border: 1px white solid;
     background-color: rgba(0, 80, 255, 1);

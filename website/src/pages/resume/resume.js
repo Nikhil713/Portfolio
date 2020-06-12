@@ -4,6 +4,8 @@ import Experience from '../../components/experience-card/experience-card'
 import Certificate from '../../components/certificate-cards/certificate'
 
 import image from '../../assets/coursera.png'
+import resume from '../../assets/Nikhil_Resume.pdf'
+
 export default class Resume extends React.Component {
     constructor(props) {
         super(props)
@@ -42,7 +44,7 @@ export default class Resume extends React.Component {
                     <div className={styles["experience"]}>
                         <div className={styles["experience-header"]}>
                             <h1>Experience</h1>
-                            <a href="/#" className={styles["resume-button"]}>DOWNLOAD CV</a>
+                            <a href={resume} target= "blank" className={styles["resume-button"]}>DOWNLOAD CV</a>
                         </div>
                         <div className={styles["experience-body"]}>
                             {grid}

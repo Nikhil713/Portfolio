@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import { Link } from 'react-router-dom';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -10,7 +11,6 @@ import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 import gmail from '../../assets/gmail.png'
 
-import resume from '../../assets/Nikhil_Resume.pdf'
 
 // CODE FOR HOMEPAGE
 
@@ -50,8 +50,10 @@ export default class Home extends React.Component {
                                 </div>
 
                                 <div className="info-buttons mobile-info-buttons">
-                                    <button className="info-b1">RESUME</button>
-                                    <button className="info-b2">PROJECTS</button>
+                                    <button className="info-b1"> <Link to="/resume" >
+                                        RESUME
+                                                    </Link></button>
+                                    <button className="info-b2"><Link to="/projects" >PROJECTS</Link></button>
                                 </div>
 
 
@@ -87,10 +89,14 @@ export default class Home extends React.Component {
                             </div>
 
                             <div className="info-buttons pc-info-buttons" >
-                                <button className="info-b1" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600"><a href={resume} download>RESUME</a></button>
-                                {/* <Link to="/projects" style={{ textDecoration: "none", color: "black" }}> */}
-                                    <button className="info-b2" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">PROJECTS</button>
-                                {/* </Link> */}
+                                <Link to="/resume">
+                                    <button className="info-b1" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
+                                        RESUME
+                                    </button>
+                                </Link>
+                                <Link to="/projects">
+                                <button className="info-b2" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">PROJECTS</button>
+                                </Link>
                             </div>
 
                             <div className="info-details">
