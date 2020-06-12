@@ -34,10 +34,10 @@ nav{
 }
 
 .blue-square {
-    height: 15px;
-    width: 15px;
+    height: 12px;
+    width: 12px;
 
-    margin: 5px 10px 0px 10px;
+    margin: 3px 7px 0px 10px;
 
     background-color: blue;
 }
