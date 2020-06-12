@@ -10,13 +10,14 @@ export default class ProjectCard extends React.Component {
         return (
             <div className={styles["experience-card"]} data-aos="fade-down" data-aos-duration="1000">
                 <div className={styles["card-left"]}>
-                    <img src={this.props.project.img} alt=""></img>
+                    <div className={styles["name"]}>{this.props.project.name}</div>
+                    {/* <div className={styles["role"]}>Role  : {this.props.project.role}</div> */}
+                    <div className={styles["desc"]}>{this.props.project.desc}</div>
+                    <div className={styles["skills"]}>Skills : {this.props.project.skills}</div>
+                    <div className={styles["link"]}><a href={this.props.project.link} target="blank">View project</a></div>
                 </div>
                 <div className={styles["card-right"]}>
-                    <div className={styles["name"]}>{this.props.project.name}</div>
-                    <div className={styles["org"]}>{this.props.project.org}</div>
-                    <div className={styles["issue"]}>Issued by : {this.props.project.issue}</div>
-                    <div className={styles["link"]}><a href={this.props.project.link} target="blank">View project</a></div>
+                    <img src={this.props.project.image} alt=""></img>
                 </div>
             </div>
         )

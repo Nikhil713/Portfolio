@@ -10,7 +10,7 @@ export default class Project extends React.Component {
         super(props)
         this.state = {
             certificateItem: [
-                { name: "Scrumpti", role: "front end", desc:" ", skills:"", image: Scrumpti }
+                { name: "Scrumpti", role: "Front-End Developer", desc:"Front End design for an online food delivery website", skills:"HTML/CSS, React JS",link:"https://github.com/Nikhil713/Scrumpti", image: Scrumpti }
             ]
         }
     }

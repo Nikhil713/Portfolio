@@ -1,14 +1,11 @@
-
 .experience-card {
     height: auto;
     width: auto;
-
     margin: 50px 0;
+    margin-left: 40px;
     /* padding: 4rem 2rem; */
-
     display: flex;
     justify-content: space-between;
-
     background-color: white;
     box-shadow: -11.31px 11.31px 25px 0px rgba(138, 131, 124, 0.23);
 }
@@ -17,58 +14,62 @@
     /* margin: 20px; */
 }
 
-.card-left {
+.card-right {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.card-left > img {
-    max-width: 12rem;
-
-    padding: 2rem;
+.card-right>img {
+    max-width: 20rem;
+    height: 13rem;
+    margin: 1rem;
+    /* padding: 2rem; */
 }
 
-.card-right {
+.card-left {
     max-width: 400px;
-
     padding: 2rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
 }
 
-.card-right > div {
+.card-left>div {
     margin: 5px;
 }
 
 .name {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.role {
+    font-size: 15px;
+}
+
+.desc {
     font-size: 20px;
+    max-width: 400px;
 }
 
-.org {
-    font-size :15px;
-}
-
-.issue {
-    font-size :15px;
+.skills {
+    font-size: 15px;
 }
 
 .link {
     width: fit-content;
-
     margin-top: 20px !important;
     padding: 10px 15px;
-
-    border:solid transparent;
+    border: solid transparent;
     border-radius: 30px;
     background: blue;
-    
-    cursor: pointer; 
+    cursor: pointer;
 }
 
-.link > a{
+.link>a {
     color: white;
     font-weight: 600;
 }
@@ -79,53 +80,74 @@
     transition: 0.4s;
 }
 
-.link:hover >a {
-    color:black;
+.link:hover>a {
+    color: black;
     background-color: transparent;
 }
 
 @media only screen and (max-width:900px) {
-
     .experience-card {
         margin: 30px 0;
-        /* padding: 1rem 0.5rem; */
-        
+        padding: 1rem 0.5rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-
     .experience-card>div {
-        margin: 10px;
+        margin: 20px 10px;
     }
-
-    .card-left{
+    .card-right {
         padding: 0;
         margin: 0;
-
         display: flex;
         justify-content: center;
         align-items: center;
+        display: none;
     }
-    
-    
-    .card-left > img {
-        max-width: 12rem;
-        padding: 1rem;
+    .card-right>img {
+        max-width: 15rem;
+        /* height: 13rem; */
+        margin: 0.25rem !important;
+        padding: 0;
+        /* padding: 2rem; */
     }
-
     img {
         max-width: 13rem;
     }
-    
-    .card-right {
+    .card-left {
         max-width: 380px;
-
-        padding:10px;
-        
+        padding: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
+    .name {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .role {
+        font-size: 10px;
+    }
+    .desc {
+        font-size: 17px;
+        max-width: 400px;
+    }
+    .skills {
+        font-size: 15px;
+    }
+    .link {
+        width: fit-content;
+        margin-top: 20px !important;
+        padding: 6px 10px;
+        border: solid transparent;
+        border-radius: 30px;
+        background: blue;
+        cursor: pointer;
+    }
+    .link>a {
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
 }
