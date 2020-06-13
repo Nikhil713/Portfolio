@@ -34,7 +34,7 @@
 }
 
 .bg-home-left {
-    height: 52.75rem;
+    height: 53.5rem;
     width: 760px;
     max-width: 40%;
     background-color: rgb(128, 167, 255);
@@ -266,7 +266,7 @@
 
     .bg-home-left{
         background-color: white;
-        height: 300px;
+        height: 320px;
         width: 100%;
         max-width: 100%;
     }
