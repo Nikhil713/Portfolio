@@ -46,7 +46,7 @@ export default class Home extends React.Component {
                                 <div className="card-name-underline"></div>
 
                                 <div className="card-subtitle mobile-card-subtitle">
-                                    <h3>PROJECT MANAGER</h3>
+                                    <h3>WEB DEVELOPER</h3>
                                 </div>
 
                                 <div className="info-buttons mobile-info-buttons">
@@ -85,7 +85,7 @@ export default class Home extends React.Component {
                             </div>
 
                             <div className="info-subheader" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
-                                <h2>Here's who I am & what I do</h2>
+                                <h2>Welcome to my Portfolio</h2>
                             </div>
 
                             <div className="info-buttons pc-info-buttons" >
@@ -100,8 +100,8 @@ export default class Home extends React.Component {
                             </div>
 
                             <div className="info-details">
-                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
-                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I am currently in pursuing my B.Tech degree at Govt. Model Engineering College, Cochin.</p>
+                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I love to design websites and solve problems.</p>
                             </div>
 
                         </div>
