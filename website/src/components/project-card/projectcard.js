@@ -14,7 +14,7 @@ export default class ProjectCard extends React.Component {
                     {/* <div className={styles["role"]}>Role  : {this.props.project.role}</div> */}
                     <div className={styles["desc"]}>{this.props.project.desc}</div>
                     <div className={styles["skills"]}>Skills : {this.props.project.skills}</div>
-                    <div className={styles["link"]}><a href={this.props.project.link} target="blank">View project</a></div>
+                    <div className={styles["link"]}><a href={this.props.project.link} target="_blank" rel="noopener noreferrer">View project</a></div>
                 </div>
                 <div className={styles["card-right"]}>
                     <img src={this.props.project.image} alt=""></img>
