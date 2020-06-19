@@ -72,6 +72,7 @@
 .link>a {
     color: white;
     font-weight: 600;
+    font-variant-caps: petite-caps;
 }
 
 .link:hover {
