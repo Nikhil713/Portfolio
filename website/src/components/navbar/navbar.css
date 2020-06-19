@@ -92,6 +92,7 @@ nav{
 .menu-item > a{
   text-decoration: none;
   color: black;
+  font-weight: 100;
 }
 
 .menu-item:hover > a{

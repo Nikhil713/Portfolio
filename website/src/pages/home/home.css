@@ -172,11 +172,12 @@
 .info-head>h1 {
     margin: 0;
 
+    font-weight: 300;
     text-align: start;
 }
 
 .info-subheader > h2{
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .info-buttons {

@@ -51,8 +51,12 @@
     margin-top: 70px;
     /* width: 500px; */
     width: 100%;
+    font-variant-caps: petite-caps;
 }
 
+.experience-header > h1 {
+    font-weight: 400;
+}
 .resume-button {
     /* height: fit-content; */
     /* width: fit-content; */
@@ -84,6 +88,16 @@
     justify-content: center;
     align-items: center;
     /* padding: 10px; */
+}
+
+.certificate-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (max-width:900px) {
@@ -126,6 +140,7 @@
     .experience-header > h1{
         font-size: 25px;
         font-weight: 600;
+
     }
 
     .resume-button {
