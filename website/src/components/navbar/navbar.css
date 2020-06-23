@@ -52,7 +52,7 @@ nav{
     /* border: solid; */
 }
 
-.nav-name >h1 {
+.nav-name >div >h1 {
     font-size: 35px;
     font-family: 'Monteserat';
     font-weight: 500;
@@ -289,14 +289,25 @@ nav{
     }
     
     .blue-square {
-        position: absolute;
-        height: 18px;
-        width: 18px;
+
+        display: none;
+    }
+
+    .mob-nav-name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     
-        margin: 0;
-        margin-bottom: 30px;
-    
-        background-color: blue;
+    .blue-square1{
+              /* position: absolute; */
+              height: 18px;
+              width: 18px;
+          
+              margin: 0;
+              /* margin-bottom: 30px; */
+          
+              background-color: blue;
     }
     
     .nav-name {
@@ -306,9 +317,9 @@ nav{
         align-items: center;   
     }
     
-    .nav-name >h1 {
+    .nav-name >div >h1 {
         font-size: 25px;
-        margin:5px 5px 5px 25px;
+        margin:5px 5px 5px 5px;
         /* font-family: 'Monteserat'; */
         font-variant-caps: petite-caps;
     }

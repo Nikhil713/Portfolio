@@ -66,13 +66,13 @@
     border-radius: 30px;
     background: blue;
     
-    font-variant-caps: petite-caps;
+    /* font-variant-caps: petite-caps; */
     cursor: pointer; 
 }
 
 .link > a{
     color: white;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .link:hover {

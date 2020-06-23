@@ -59,20 +59,20 @@ footer{
 .footer-right > div > h1{
     margin: 5px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .call{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .write{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -83,6 +83,9 @@ footer{
     align-items: center;
 }
 
+.follow > h1 {
+    margin-top: 15px !important;
+}
 .follow-icons {
     display: flex;
     justify-content: center;

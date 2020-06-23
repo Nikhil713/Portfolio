@@ -4,7 +4,7 @@ import Experience from '../../components/experience-card/experience-card'
 import Certificate from '../../components/certificate-cards/certificate'
 
 import coursera from '../../assets/coursera.png'
-import linkedin from '../../assets/linkedinlogo.webp'
+// import linkedin from '../../assets/linkedinlogo.webp'
 import hackerrank from '../../assets/hackerrank.jpeg'
 import resume from '../../assets/Nikhil_Resume.pdf'
 
@@ -19,8 +19,8 @@ export default class Resume extends React.Component {
             certificateItem: [
                 { name: "Google Cloud Platform Fundamentals: Core Infrastructure", org: "Google Cloud", issue: "Coursera", img: coursera , link: "https://www.coursera.org/account/accomplishments/certificate/JDJV9RCUUQ38"},
                 { name: "Introduction to Data Science in Python", org: "University of Michigan", issue: "Coursera", img: coursera , link: "https://www.coursera.org/account/accomplishments/certificate/BR9B3TT65TQT"},
-                { name: "HTML Essential Training", org: "Linked In Learning", issue: "Linked In", img: linkedin , link: "https://drive.google.com/file/d/1JgV2sLpa_mkRXxR6_oHaH1gL7ccgF4uQ/view"},
-                { name: "Python (Basic)", org: "HackerRank", issue: "HackerRank", img: hackerrank , link: "https://www.hackerrank.com/certificates/cf85dc40a4ef"}
+                // { name: "HTML Essential Training", org: "Linked In Learning", issue: "Linked In", img: linkedin , link: "https://drive.google.com/file/d/1JgV2sLpa_mkRXxR6_oHaH1gL7ccgF4uQ/view"},
+                { name: "Python Certification", org: "HackerRank", issue: "HackerRank", img: hackerrank , link: "https://www.hackerrank.com/certificates/cf85dc40a4ef"}
             ]
         }
     }

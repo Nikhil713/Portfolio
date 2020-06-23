@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export default class Navbar extends React.Component {
@@ -12,8 +12,11 @@ export default class Navbar extends React.Component {
                         <div className="nav-left-content">
                             <div className="blue-square"></div>
                             <div className="nav-name">
-                                <h1>Nikhil Babu</h1>
-                                <h2><a href="/#" className="not-mobile" style={{cursor:"auto",color:"black",marginRight: "5px"}}> / </a> WEB DEVELOPER</h2>
+                                <div className="mob-nav-name">
+                                    <div className="blue-square1"></div>
+                                    <h1>Nikhil Babu</h1>
+                                </div>
+                                <h2><a href="/#" className="not-mobile" style={{ cursor: "auto", color: "black", marginRight: "5px" }}> / </a> WEB DEVELOPER</h2>
                             </div>
                         </div>
                     </div>
@@ -27,14 +30,14 @@ export default class Navbar extends React.Component {
                                         <ul>
                                             <li>
                                                 <a href="/#" class="check">
-                                                    <Link to="/home" style={{textDecoration:"none",color:"black"}}>
+                                                    <Link to="/home" style={{ textDecoration: "none", color: "black" }}>
                                                         Home
                                                     </Link>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/#" class="check">
-                                                    <Link to="/resume" style={{textDecoration:"none",color:"black"}}>
+                                                    <Link to="/resume" style={{ textDecoration: "none", color: "black" }}>
                                                         Resume
                                                     </Link>
                                                 </a>
@@ -47,8 +50,8 @@ export default class Navbar extends React.Component {
                                                 </a>
                                             </li> */}
                                             <li>
-                                                <a href="/#" class="check"> 
-                                                    <Link to="/projects" style={{textDecoration:"none",color:"black"}}>
+                                                <a href="/#" class="check">
+                                                    <Link to="/projects" style={{ textDecoration: "none", color: "black" }}>
                                                         Projects
                                                     </Link>
                                                 </a>
@@ -83,7 +86,7 @@ export default class Navbar extends React.Component {
                                 </Link></li>
                             <li className="menu-item">
                                 <a href="https://form.jotform.com/201631983485461" target="blank">CONTACT ME</a>
-                                </li>
+                            </li>
                         </ul>
                     </div>
 
