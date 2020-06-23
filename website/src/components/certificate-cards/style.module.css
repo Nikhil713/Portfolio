@@ -92,7 +92,9 @@
         margin: 30px 0;
         /* padding: 1rem 0.5rem; */
         
-        width: auto;
+        width: 100%;
+
+        /* min-width: 300px; */
 
         display: flex;
         flex-direction: column;
@@ -125,6 +127,7 @@
     .card-right {
         max-width: 380px;
 
+        width: 85%;
         padding:10px;
         
         display: flex;

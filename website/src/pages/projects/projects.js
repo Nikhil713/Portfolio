@@ -4,6 +4,7 @@ import styles from './style.module.css'
 import ProjectCard from '../../components/project-card/projectcard'
 
 import Scrumpti from '../../assets/scrumpti.jpg'
+import Prologue from '../../assets/prologue2.jpg'
 import Portfolio from '../../assets/portfolio.png'
 
 export default class Project extends React.Component {
@@ -12,8 +13,8 @@ export default class Project extends React.Component {
         this.state = {
             certificateItem: [
                 { name: "Scrumpti", role: "Front-End Developer", desc:"Front End design for an online food delivery website", skills:"HTML5, CSS3, React JS",link:"https://github.com/Nikhil713/Scrumpti", image: Scrumpti },
-                { name: "Portfolio", role: "", desc:"Code for my Personal Website made with React JS", skills:"HTML5, CSS3, React JS",link:"https://github.com/Nikhil713/nikhil713.github.io", image: Portfolio },
-                { name: "Prologue", role: "Full Stack Developer", desc:"An online book management platform, where the user can keep track of their books", skills:"HTML5, CSS3, PHP",link:"https://github.com/Nikhil713/bookRecommendationEngine", image: Scrumpti }
+                { name: "Prologue", role: "Full Stack Developer", desc:"An online book management platform, where the user can keep track of their books", skills:"HTML5, CSS3, PHP",link:"https://github.com/Nikhil713/bookRecommendationEngine", image: Prologue },
+                { name: "Portfolio", role: "", desc:"Code for my Personal Website made with React JS", skills:"HTML5, CSS3, React JS",link:"https://github.com/Nikhil713/nikhil713.github.io", image: Portfolio }
             ]
         }
     }

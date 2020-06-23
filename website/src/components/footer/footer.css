@@ -115,6 +115,7 @@ footer{
 @media only screen and (max-width:900px) {
     
     footer{
+        margin-top: 20px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -193,6 +194,10 @@ footer{
         align-items: flex-start;
     }
     
+    .follow > h1 {
+        margin-top: 0 !important;
+    }
+
     .follow-icons {
         display: flex;
         justify-content: center;
