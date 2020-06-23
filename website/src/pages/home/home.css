@@ -84,7 +84,8 @@
     text-align: center;
     line-height: 1.2em;
     letter-spacing: 2px;
-    font-family: 'Monteserat';
+    /* font-family: 'Monteserat'; */
+    font-weight: 300;
     font-variant-caps: petite-caps;    
 }
 

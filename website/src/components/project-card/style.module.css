@@ -43,7 +43,7 @@
 
 .name {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 520;
 }
 
 .role {
@@ -71,8 +71,8 @@
 
 .link>a {
     color: white;
-    font-weight: 600;
-    font-variant-caps: petite-caps;
+    font-weight: 400;
+    /* font-variant-caps: petite-caps; */
 }
 
 .link:hover {

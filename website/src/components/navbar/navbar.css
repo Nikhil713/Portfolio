@@ -24,13 +24,16 @@ nav{
 
     float: left;
     
+    
 }
 
 .nav-left-content {
     margin-left: 40px;
 
     display: flex;
+    justify-content: center;
     align-items: center;
+    /* border: solid; */
 }
 
 .blue-square {
@@ -46,16 +49,18 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;   
+    /* border: solid; */
 }
 
 .nav-name >h1 {
     font-size: 35px;
     font-family: 'Monteserat';
+    font-weight: 500;
     font-variant-caps: petite-caps;
 }
 
 .nav-name >h2 {
-    padding-left: 15px;
+    padding-left: 18px;
     margin-top: 20px ;
     font-size: 18px;
     font-weight: 300;
@@ -92,7 +97,8 @@ nav{
 .menu-item > a{
   text-decoration: none;
   color: black;
-  font-weight: 100;
+  font-size: 17px;
+  font-weight: 200;
 }
 
 .menu-item:hover > a{
@@ -303,7 +309,7 @@ nav{
     .nav-name >h1 {
         font-size: 25px;
         margin:5px 5px 5px 25px;
-        font-family: 'Monteserat';
+        /* font-family: 'Monteserat'; */
         font-variant-caps: petite-caps;
     }
     
