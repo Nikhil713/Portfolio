@@ -391,6 +391,7 @@
     .info-details {
         width:auto;
         max-width: 300px;
+        font-weight: 300 !important;
     }
 
 }

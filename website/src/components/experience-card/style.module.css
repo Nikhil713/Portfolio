@@ -70,6 +70,12 @@
         font-size: 20px;
     }
 
+    .card-left h3 {
+        font-size: 15px;
+        font-weight: 300;
+        margin: 0;
+    }
+
     .card-right {
         padding-left: 0px;
     }
