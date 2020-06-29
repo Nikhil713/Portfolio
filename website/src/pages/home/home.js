@@ -100,7 +100,7 @@ export default class Home extends React.Component {
                             </div>
 
                             <div className="info-details">
-                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I am currently in pursuing my B.Tech degree at Govt. Model Engineering College, Cochin.</p>
+                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I am currently pursuing my B.Tech degree at Govt. Model Engineering College, Cochin.</p>
                                 <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I love to design websites and solve problems.</p>
                             </div>
 
