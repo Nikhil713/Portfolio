@@ -16,7 +16,7 @@ export default class Navbar extends React.Component {
                                     <div className="blue-square1"></div>
                                     <h1>Nikhil Babu</h1>
                                 </div>
-                                <h2><a href="/#" className="not-mobile" style={{ cursor: "auto", color: "black", marginRight: "5px" }}> / </a> WEB DEVELOPER</h2>
+                                <h2><a href="/#" className="not-mobile" style={{ cursor: "auto", color: "black", marginRight: "5px" }}> / </a> SOFTWARE DEVELOPER</h2>
                             </div>
                         </div>
                     </div>

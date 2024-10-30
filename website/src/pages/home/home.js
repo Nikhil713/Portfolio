@@ -46,7 +46,7 @@ export default class Home extends React.Component {
                                 <div className="card-name-underline"></div>
 
                                 <div className="card-subtitle mobile-card-subtitle">
-                                    <h3>WEB DEVELOPER</h3>
+                                    <h3>S/W DEVELOPER</h3>
                                 </div>
 
                                 <div className="info-buttons mobile-info-buttons">
@@ -100,8 +100,8 @@ export default class Home extends React.Component {
                             </div>
 
                             <div className="info-details">
-                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I am currently pursuing my B.Tech degree at Govt. Model Engineering College, Cochin.</p>
-                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200">I love to design websites and solve problems.</p>
+                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">I am currently pursuing my Masters Degree in Computer Science at Universität Stuttgart.</p>
+                                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">I love coding and solving problems.</p>
                             </div>
 
                         </div>

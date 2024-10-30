@@ -13,8 +13,9 @@ export default class Resume extends React.Component {
         super(props)
         this.state = {
             expItem: [
-                { duration: "Dec 2019 - Present", position: "Web Manager", company: "Excel MEC", location: "Cochin",desc1: "Designed, implemented and maintained 10+ websites" ,desc2:"Assessed UX and UI designs for technical feasibility",desc3:"Trained and managed a team of 15 web developers to deliver original, quality products",tech:"HTML5, CSS3, React "},
-                { duration: "Apr 2018 - May 2018", position: "Intern", company: "FACT", location: "Cochin",desc1: "Learned about the ERP - SAP and how it can be used for resource planning and management",desc2: "Attained an insight as to how different sectors of a company can be integrated with the help of an ERP",tech:"SAP, ABAP" }
+                { duration: "Aug 2021 - Aug 2024", position: "Software Developer", company: "AMADEUS", location: "Bengaluru, India",desc1: "Worked on the Amadeus Curiosity Program" ,desc2:"Responsible for configuration and deployment of 50+ business components",desc3:"Implemented Cloud-compatible solutions for migrating data from existing Data Center to Cloud",tech:"Microsoft Azure, Openshift, Docker, Jenkins and other cloud technologies "},
+                { duration: "Jan 2020 - Mar 2021", position: "Web Manager", company: "Excel MEC", location: "Cochin, India",desc1: "Designed, implemented and maintained 10+ websites" ,desc2:"Assessed UX and UI designs for technical feasibility",desc3:"Trained and managed a team of 15 web developers to deliver original, quality products",tech:"React JS"},
+                { duration: "Apr 2018 - May 2018", position: "Intern", company: "FACT", location: "Cochin, India",desc1: "Learned about the ERP - SAP and how it can be used for resource planning and management",desc2: "Attained an insight as to how different sectors of a company can be integrated with the help of an ERP",tech:"SAP, ABAP" }
             ],
             certificateItem: [
                 { name: "Google Cloud Platform Fundamentals: Core Infrastructure", org: "Google Cloud", issue: "Coursera", img: coursera , link: "https://www.coursera.org/account/accomplishments/certificate/JDJV9RCUUQ38"},
